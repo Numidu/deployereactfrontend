@@ -15,6 +15,7 @@ function App() {
   return (
     <>
       <div>
+        <h1>Numidu </h1>
         {data
           ? data.map((item) => (
               <div key={item.id}>
